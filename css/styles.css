@@ -37,7 +37,7 @@ p, h2 {text-align: center;
   color: white
 }
 
-h2 {margin: 10px;
+h2 {margin: 15px;
 }
 
 p {text-align: justify;
@@ -71,6 +71,7 @@ textarea, input { color: black;
   justify-content: center;
   align-content: center;
   width: auto;
+  padding: 20px 20px;
 }
 
 .redes-footer a {padding: 10px 10px}
