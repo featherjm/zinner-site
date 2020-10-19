@@ -5,30 +5,29 @@
 
 html, body {
   font-family: 'Inconsolata', monospace;
-  font-weight: 400;
-  font-size: 14px;
+  font-weight: 300;
+  font-size: 0.9rem;
   letter-spacing: 2px;
   line-height: 1.75em;
-  background-color: #001000;
+  background-color: black;
+  overflow-x: hidden;
 }
-
-/**#logo {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  width: 100%;
-} **/
 
 li { display: inline-block;}
 
 .navbar {
-  background-color: #001000 !important;
+  background-color: #11ffee00 !important;
+  padding-bottom: 20px;
+}
+
+.header-video {
+  padding-bottom: 20px;
 }
 
 ul li a { color: white;
   text-transform: uppercase;
-  font-size: 14px;
-  font-weight: bold;
+  font-size: 1.1rem;
+  font-weight: normal;
 }
 
 p, h2 {text-align: center;
@@ -36,11 +35,12 @@ p, h2 {text-align: center;
 }
 
 h2 {margin: 15px;
+  font-size: 1.5rem;
 }
 
 p {text-align: justify;
   margin: 0px 50px;
-  padding: 10px 0px;
+  padding: 20px 90px;
 }
 
 label {color: white}
@@ -49,19 +49,6 @@ textarea, input { color: black;
   padding: 5.25px 10.25px;
 }
 
-/**.form { width: auto;
-  margin: auto;
-  max-width: 1000px;
-  padding: 35px;
-}
-
-.menu-nav {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  width: 100%
-} **/
-
 .menu-nav li {padding: 9px 12px;}
 
 .redes-footer {
@@ -69,7 +56,7 @@ textarea, input { color: black;
   justify-content: center;
   align-content: center;
   width: auto;
-  padding: 20px 20px;
+  padding-top: 50px;
 }
 
 .redes-footer a {padding: 10px 10px}
